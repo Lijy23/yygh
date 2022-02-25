@@ -9,6 +9,7 @@
         <module name="service_task" />
         <module name="service_sms" />
         <module name="service_oss" />
+        <module name="model" />
         <module name="service_order" />
         <module name="service-util" />
         <module name="service_statistics" />
@@ -26,6 +27,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common_util" options="-parameters" />
+      <module name="model" options="-parameters" />
       <module name="service-util" options="-parameters" />
       <module name="service_cmn" options="-parameters" />
       <module name="service_hosp" options="-parameters" />
